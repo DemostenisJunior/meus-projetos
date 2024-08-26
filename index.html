@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador alura</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/img/favcon.jpeg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho" >
+        <img src="/img/alura.svg" alt="">
+    </header>
+    <main class="main container" >
+        <section>
+            <div class="container"></div>
+        </section>
+
+        <div class="container-input" > 
+            <div class="input" > 
+                <textarea id="input-texto" placeholder="Digite seu texto..." ></textarea>
+            </div>
+            
+            <div id="output">
+                <img class="img__logo" src="/img/alura2.png" alt="">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class="container-bnt" >
+                <button onclick="criptografar()" class="btn-criptografar" >Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar" >Descriptografar</button>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <span>!</span>
+            <p> Apenas letras minúsculas e sem acento.</p>
+        </div>
+    </main>
+    <footer class="rodape">
+        <h1>Desenvolvido por Demóstenis Júnior</h1>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
